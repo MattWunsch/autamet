@@ -1,0 +1,40 @@
+{
+  "name": "autamet",
+  "author": "JuniorDooley",
+  "version": "1.7.3",
+  "description": "Handbrake for node.js. Brings video encoding.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MattWunsch/autamet.git"
+  },
+  "main": "./lib/handbrake-js.js",
+  "bin": {
+    "handbrake": "bin/cli.js"
+  },
+  "keywords": [
+    "quo",
+    "ad",
+    "neque",
+    "video"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "bin/cli.js",
+    "lib",
+    "scripts"
+  ],
+  "dependencies": {
+    "console-dope": "~0.3.0",
+    "culpadolorum": "^1.0.0",
+    "deseruntreiciendis": "^1.0.0",
+    "more-fs": "~0.3.0",
+    "nature": "~0.4.0",
+    "request": "^2.34",
+    "unzip": "~0.1"
+  },
+  "devDependencies": {
+    "tape": "^2.12.3"
+  }
+}
